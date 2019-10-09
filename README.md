@@ -30,3 +30,22 @@ $ git log
 
 There is also a legally free book about git that can be downloaded from [here](https://git-scm.com/book/en/v2).
 
+#### Raspberry Pi, `/etc/rc.local` and friends
+`/etc/rc.local` is a script executed *as `root`* _when the machine starts_.
+
+This is typically where you would start the required servers, create symbolic links, this kind of things.
+
+##### To start a command when opening the Graphical Desktop
+This happens in `/.config/lxsession/LXDE-pi/autostart`. Example:
+```
+@chromium-browser --incognito --kiosk [--force-device-scale-factor=0.90] http://localhost:9999/web/nmea/headup.html \
+                                      [url.2] \
+                                      [url.3] \
+                                      [url.4]
+```
+##### To prevent the desktop to go to sleep (no screen saver)
+A Graphical Desktop will by default go to sleep if not solicited for a while, and we do not want that. To fix it:
+
+- Edit `/etc/lightdm/lightdm.conf`
+- Have a/the line that starts with `xserver-command=` to look like `xserver-command=X -s 0 -dpms`
+- This will take effect after reboot.
