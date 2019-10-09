@@ -11,7 +11,7 @@
 	<title>Multi-Screen</title>
 	<style>
 		:root {
-			--slide-width: 300px;
+			--slide-width: 500px;
 		}
 
 		html {
@@ -55,6 +55,7 @@
 		.slideshow-container {
 			max-width: calc(var(--slide-width) + 100px);
 			margin: auto;
+			margin-top: 20px;
 			text-align: center;
 			display: grid;
 			grid-template-areas:
@@ -221,9 +222,6 @@
 		}
 	</style>
 
-	<!--script type="text/javascript" src="../js/pub.sub.js"></script>
-	<script type="text/javascript" src="../js/ajax.manager.js"></script-->
-
 	<script type="text/javascript">
 
 		// Left-right swipe gesture management
@@ -274,7 +272,7 @@
 </head>
 <body>
 
-<input type="checkbox" onchange="manageClick(this);" /> Auto-scroll
+<span><input type="checkbox" onchange="manageClick(this);" /> Auto-scroll</span>
 
 <div class="slideshow-container">
 
