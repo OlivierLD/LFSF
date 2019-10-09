@@ -55,5 +55,5 @@ A Graphical Desktop will by default go to sleep if not solicited for a while, an
 ### Usefull Software
 - [Install Jupyter](https://jupyter.org/install)
 - [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- The **best** Python IDE: [Install PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html)
+- The ~**_best_**~ Python IDE: [Install PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html)
 
