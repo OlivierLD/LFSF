@@ -43,6 +43,8 @@ This happens in `/.config/lxsession/LXDE-pi/autostart`. Example:
                                       [url.3] \
                                       [url.4]
 ```
+> To know how to close tab, open tab, open window, etc, from the keyboard, look into the `File` menu of your Chrome browser.
+> See in the `Window` menu how to navigate from tab to tab (Ctrl + Tab, Ctrl + Shft + Tab).
 ##### To prevent the desktop from going to sleep (no screen saver)
 A Graphical Desktop will by default go to sleep if not solicited for a while, and we might not want that. To fix it:
 
