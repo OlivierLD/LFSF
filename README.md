@@ -36,13 +36,19 @@ There is also a legally free book about git that can be downloaded from [here](h
 This is typically where you would start the required servers, create symbolic links, this kind of things.
 
 ##### To start a command when opening the Graphical Desktop
-This happens in `/.config/lxsession/LXDE-pi/autostart`. Example:
+This happens in `~/.config/lxsession/LXDE-pi/autostart`. Example:
 ```
 @chromium-browser --incognito --kiosk [--force-device-scale-factor=0.90] http://localhost:9999/web/nmea/headup.html \
                                       [url.2] \
                                       [url.3] \
                                       [url.4]
 ```
+In our case, it can also be a static resource like this:
+```
+@chromium-browser --incognito --kiosk file:///home/pi/LFSF/web/index.html
+```
+No running server seem to be reuiqred here.
+
 > To know how to close tab, open tab, open window, etc, from the keyboard, look into the `File` menu of your Chrome browser.
 > See in the `Window` menu how to navigate from tab to tab (Ctrl + Tab, Ctrl + Shft + Tab).
 ##### To prevent the desktop from going to sleep (no screen saver)
