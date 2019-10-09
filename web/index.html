@@ -10,6 +10,10 @@
 	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=3">
 	<title>Multi-Screen</title>
 	<style>
+		:root {
+			--slide-width: 300px;
+		}
+
 		html {
 			display: table;
 			width: 100%;
@@ -43,13 +47,13 @@
 
 		.visible-slide {
 			opacity: 1;
-			max-width: 200px;
+			max-width: var(--slide-width);
 			transform: scaleX(1);
 		}
 
 		/* Slideshow container */
 		.slideshow-container {
-			max-width: 300px;
+			max-width: calc(var(--slide-width) + 100px);
 			margin: auto;
 			text-align: center;
 			display: grid;
@@ -163,7 +167,7 @@
 		}
 
 		.display {
-			width: 200px;
+			width: var(--slide-width);
 			height: 300px;
 			border: 4px solid; /* Comment 2 lines to remove the frame */
 			border-radius: 10px;
@@ -277,7 +281,7 @@
 	<div class="the-slides fade">
 		<div class="number-text">1 / 3</div>
 		<div class="display">
-			<span class="display-title">Tintin la baleyette</span>
+			<span class="display-title">Tintin la balayette</span>
 			<span class="display-data" id="mat"><a href="https://scratch.mit.edu/projects/310928319/" target="new">Play it</a></span>
 			<span class="display-unit">Joe Shmow &amp; Marylin Susphore</span>
 		</div>
