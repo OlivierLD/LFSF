@@ -1,5 +1,5 @@
 # LFSF
-Lycee Francais de San Francisco
+Lycée Français de San Francisco
 
 ### Git basics
 First, you need to clone the repository (aka `repo`):
