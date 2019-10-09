@@ -43,7 +43,7 @@ This happens in `/.config/lxsession/LXDE-pi/autostart`. Example:
                                       [url.3] \
                                       [url.4]
 ```
-##### To prevent the desktop to go to sleep (no screen saver)
+##### To prevent the desktop from going to sleep (no screen saver)
 A Graphical Desktop will by default go to sleep if not solicited for a while, and we do not want that. To fix it:
 
 - Edit `/etc/lightdm/lightdm.conf`
