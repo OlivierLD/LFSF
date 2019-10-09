@@ -49,3 +49,9 @@ A Graphical Desktop will by default go to sleep if not solicited for a while, an
 - Edit `/etc/lightdm/lightdm.conf`
 - Have a/the line that starts with `xserver-command=` to look like `xserver-command=X -s 0 -dpms`
 - This will take effect after reboot.
+
+### Usefull Software
+- [Install Jupyter](https://jupyter.org/install)
+- [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- The **best** Python IDE: [Install PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html)
+
