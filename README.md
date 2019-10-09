@@ -44,7 +44,7 @@ This happens in `/.config/lxsession/LXDE-pi/autostart`. Example:
                                       [url.4]
 ```
 ##### To prevent the desktop from going to sleep (no screen saver)
-A Graphical Desktop will by default go to sleep if not solicited for a while, and we do not want that. To fix it:
+A Graphical Desktop will by default go to sleep if not solicited for a while, and we might not want that. To fix it:
 
 - Edit `/etc/lightdm/lightdm.conf`
 - Have a/the line that starts with `xserver-command=` to look like `xserver-command=X -s 0 -dpms`
