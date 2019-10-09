@@ -12,6 +12,7 @@
 	<style>
 		:root {
 			--slide-width: 500px;
+			--slide-height: 400px;
 		}
 
 		html {
@@ -35,7 +36,7 @@
 
 		.the-slides {
 			/*display: none;*/
-			height: 300px;
+			height: var(--slide-height);
 			grid-area: center;
 			margin: auto;
 			transition: max-height 1s ease-out, opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -161,7 +162,7 @@
 		}
 
 		/* On smaller screens, decrease text size */
-		@media only screen and (max-width: 300px) {
+		@media only screen and (max-width: var(--slide-width)) {
 			.prev, .next, .text {
 				font-size: 11px
 			}
@@ -169,7 +170,7 @@
 
 		.display {
 			width: var(--slide-width);
-			height: 300px;
+			height: var(--slide-height);
 			border: 4px solid; /* Comment 2 lines to remove the frame */
 			border-radius: 10px;
 			display: grid;
