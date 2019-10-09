@@ -1,2 +1,2 @@
 # LFSF
-Lycee Francais de San Fracisco
+Lycee Francais de San Francisco
