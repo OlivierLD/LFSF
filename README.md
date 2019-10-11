@@ -64,3 +64,9 @@ A Graphical Desktop will by default go to sleep if not solicited for a while, an
 - The **_best_** Python IDE: [Install PyCharm](https://www.jetbrains.com/help/pycharm/installation-guide.html)
 
 To build a web site, hosted by github, see [**GitHub**Pages](https://pages.github.com/).
+
+### Next
+- [A carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+
+---
+
