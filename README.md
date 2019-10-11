@@ -66,7 +66,7 @@ A Graphical Desktop will by default go to sleep if not solicited for a while, an
 To build a web site, hosted by github, see [**GitHub**Pages](https://pages.github.com/).
 
 ### Next
-- [A carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp)
+- [A carousel](https://www.w3schools.com/bootstrap/bootstrap_carousel.asp) ?
 
 ---
 
